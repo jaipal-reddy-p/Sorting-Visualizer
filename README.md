@@ -1,6 +1,6 @@
 # Sorting-Visualizer
 
-Welcome to Sorting Visualizer, a web application designed to help you understand and visualize various sorting algorithms. This project was created to provide an interactive and engaging way to learn about sorting algorithms and their inner workings.
+<p>Welcome to Sorting Visualizer, a web application designed to help you understand and visualize various sorting algorithms. This project was created to provide an interactive and engaging way to learn about sorting algorithms and their inner workings.</p>
 
 <h3>Working of project</h3>
 
@@ -21,4 +21,5 @@ Welcome to Sorting Visualizer, a web application designed to help you understand
 3. Visualization:
 <li>Based on the selected algorithm, the visualization area animates the sorting process in real-time, displaying each step clearly.</li>
 </ul>
-#Programing Languages used: HTML5, CSS, and JS.
+
+# Programing Languages used: HTML5, CSS, and JS.
