@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+  <header>
+    <h1>Sorting Visualizer</h1>
+    <button id="logout-button">Logout</button>
+  </header>
+  <div class="container">
+    <div class="compiler-container">
+      <textarea id="code" placeholder="Write your code here..."></textarea>
+      <select id="language">
+        <option value="python">Python</option>
+        <option value="c">C</option>
+        <option value="java">Java</option>
+      </select>
+      <button id="run-code">Run Code</button>
+      <div id="output">Output will be displayed here...</div>
+    </div>
+    <div class="visualization-container">
+      <select id="algorithm">
+        <option value="bubble">Bubble Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="heap">Heap Sort</option>
+      </select>
+      <div id="animation-area">Visualization will be displayed here...</div>
+    </div>
+  </div>
+  <script src="mainpage.js"></script>
+</body>
+</html>

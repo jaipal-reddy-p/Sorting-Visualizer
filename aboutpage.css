@@ -1,0 +1,125 @@
+body {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  width: 80%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #222;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff8c00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type:disc;
+  color: #ff8c00;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+.login-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff8c00;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #e67e00;
+}
+
+.login-link i {
+  margin-right: 5px;
+}
+
+.arrow-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.arrow-link:hover {
+  color: #ff8c00;
+}
+
+.login-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff8c00;
+  padding: 15px 25px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #e67e00;
+}
+/* Existing CSS styles */
+
+@media (max-width: 768px) {
+  .content {
+      width: 90%;
+      padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+      width: 95%;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  .login-button {
+      font-size: 14px;
+      padding: 12px 20px;
+  }
+}
